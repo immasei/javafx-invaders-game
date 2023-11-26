@@ -96,3 +96,8 @@ The player can do a cheating operation to remove all aliens projectile of the sa
   * `Memento`:            Memento.java
   * `Caretaker`:          Caretaker.java
   * `Originator`:         GameEngine.java
+
+## Acknowledgement
+
+The codebase of full version is provided by unit **SOFT2201 - University of Sydney.**
+The extra parts are `Difficulty`, `Cheat` and `Undo`. 
