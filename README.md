@@ -29,8 +29,11 @@ gradle clean build run
 ```
 
 ## Features-Full-Version
+**[Switch difficulty](#Difficulties)**<br>
+**[Cheat](#Cheat)**<br>
+**[Undo](#Undo)**<br>
 
-### Switch difficulties
+### Difficulties
 
 * You can switch difficulty at any time during the game.
 * The default mode is `Easy` as in `config_easy.json`
