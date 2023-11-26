@@ -4,9 +4,7 @@
 **[Overview](#Overview)**<br>
 **[Dependencies](#Dependencies)**<br>
 **[Execute](#Execute)**<br>
-**[Features](#Features)**<br>
-**[Testing](#Testing)**<br>
-**[References](#References)**<br>
+**[Features](*Feature-Full-Version)**<br>
 
 ## Overview
 Space Invaders is a 1978 shoot 'em up arcade video game developed and released by Taito in Japan. The goal is to defeat wave after wave of descending aliens with a horizontally moving laser to earn as many points as possible. Here's an [example](https://www.youtube.com/watch?v=uGjgxwiemms).
@@ -19,7 +17,7 @@ Space Invaders is a 1978 shoot 'em up arcade video game developed and released b
 * JDK 17
 * Gradle
 
-### Features - Full Version
+### Execute
 
 `cd` into `java-invaders-game` then `cd` into either:
 
@@ -30,7 +28,7 @@ Space Invaders is a 1978 shoot 'em up arcade video game developed and released b
 gradle clean build run
 ```
 
-## Features
+## Features-Full-Version
 
 ### Switch difficulties
 
