@@ -45,7 +45,7 @@ public class GameWindow {
         //bound
         this.upperbound = new BoxCollider(width, 1, new Vector2D(1, 1));
         this.lowerbound = new BoxCollider(width, 1, new Vector2D(1, height-1));
-        this.rightbound = new BoxCollider(5, height, new Vector2D(width-1, 1));
+        this.rightbound = new BoxCollider(1, height, new Vector2D(width-1, 1));
         this.leftbound = new BoxCollider(1, height, new Vector2D(1, 1));
 
         KeyboardInputHandler keyboardInputHandler = new KeyboardInputHandler(this.model);

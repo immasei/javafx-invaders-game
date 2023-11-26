@@ -12,7 +12,7 @@ public class UFO extends NPC {
         setImage(new EntityImage(this).getImage(behaviour));
         this.damage = 3;    //hardcode
         this.isUFO = -1;    //hardcode
-        this.speedUp = 0.2; //hardcode
+        this.speedUp = 0.1; //hardcode
     }
 
     @Override
