@@ -79,3 +79,19 @@ The player can do a cheating operation to remove all aliens projectile of the sa
   <p align='center'>
     <img align='center' src='readme-resources/undo.gif' width='450'/>
   </p>
+
+## Design pattern
+
+* **Singleton** - *invaders.singleton.GameEngine*
+
+* **Facade** - *invaders.facade.*
+
+  * `Facade`:             LabelFacade.java
+  * `Subsystem classes`:  Clock.java
+                         Score.java
+
+* **Memento** - *invaders.memento.* and *invaders.singleton.GameEngine*
+
+  * `Memento`:            Memento.java
+  * `Caretaker`:          Caretaker.java
+  * `Originator`:         GameEngine.java
