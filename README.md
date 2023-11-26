@@ -29,9 +29,9 @@ gradle clean build run
 ```
 
 ## Features-Full-Version
-**[Switch difficulty](#Difficulties)**<br>
-**[Cheat](#Cheat)**<br>
-**[Undo](#Undo)**<br>
+* **[Switch difficulty](#Difficulties)**<br>
+* **[Cheat](#Cheat)**<br>
+* **[Undo](#Undo)**<br>
 
 ### Difficulties
 
