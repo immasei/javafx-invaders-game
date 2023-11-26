@@ -19,3 +19,13 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+.DS_Store
+.idea
+settings.gradle
+gradlew
+gradlew.bat
+gradle
