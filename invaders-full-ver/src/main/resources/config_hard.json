@@ -1,0 +1,158 @@
+{
+  "Game": {
+    "size": {
+      "x": 600,
+      "y": 800
+    }
+  },
+  "Player": {
+    "speed": 1,
+    "lives": 3,
+    "position": {
+      "x": 300,
+      "y": 750
+    }
+  },
+  "Bunkers": [
+    {
+      "position": {
+        "x": 300,
+        "y": 700
+      },
+      "size": {
+        "x": 200,
+        "y": 25
+      }
+    }
+  ],
+  "Enemies": [
+    {
+      "position": {
+        "x": 25,
+        "y": 100
+      },
+      "projectile": "fast_straight"
+    },
+    {
+      "position": {
+        "x": 50,
+        "y": 100
+      },
+      "projectile": "fast_straight"
+    },
+    {
+      "position": {
+        "x": 75,
+        "y": 100
+      },
+      "projectile": "fast_straight"
+    },
+    {
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "projectile": "fast_straight"
+
+    },
+    {
+      "position": {
+        "x": 130,
+        "y": 100
+      },
+      "projectile": "fast_straight"
+    },
+    {
+      "position": {
+        "x": 160,
+        "y": 100
+      },
+      "projectile": "fast_straight"
+    },
+    {
+      "position": {
+        "x": 200,
+        "y": 100
+      },
+      "projectile": "slow_straight"
+    },
+    {
+      "position": {
+        "x": 230,
+        "y": 100
+      },
+      "projectile": "slow_straight"
+    },
+    {
+      "position": {
+        "x": 260,
+        "y": 100
+      },
+      "projectile": "slow_straight"
+    },
+    {
+      "position": {
+        "x": 290,
+        "y": 100
+      },
+      "projectile": "slow_straight"
+    },
+    {
+      "position": {
+        "x": 320,
+        "y": 100
+      },
+      "projectile": "slow_straight"
+    },
+
+    {
+      "position": {
+        "x": 350,
+        "y": 200
+      },
+      "projectile": "slow_straight"
+    },
+    {
+      "position": {
+        "x": 390,
+        "y": 200
+      },
+      "projectile": "slow_straight"
+    },
+    {
+      "position": {
+        "x": 420,
+        "y": 200
+      },
+      "projectile": "fast_straight"
+    },
+    {
+      "position": {
+        "x": 450,
+        "y": 200
+      },
+      "projectile": "fast_straight"
+    },
+    {
+      "position": {
+        "x": 480,
+        "y": 200
+      },
+      "projectile": "fast_straight"
+    },
+    {
+      "position": {
+        "x": 510,
+        "y": 200
+      },
+      "projectile": "fast_straight"
+    },
+    {
+      "position": {
+        "x": 550,
+        "y": 200
+      },
+      "projectile": "fast_straight"
+    }
+  ]
+}
