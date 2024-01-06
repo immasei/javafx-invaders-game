@@ -13,7 +13,6 @@ Space Invaders is a 1978 shoot 'em up arcade video game developed and released b
 
 ### Dependencies
 
-* Java SE Development Kit (JDK) 17
 * JDK 17
 * Gradle 7.4
 
