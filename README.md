@@ -15,7 +15,7 @@ Space Invaders is a 1978 shoot 'em up arcade video game developed and released b
 
 * Java SE Development Kit (JDK) 17
 * JDK 17
-* Gradle
+* Gradle 7.4
 
 ### Execute
 
@@ -99,5 +99,4 @@ The player can do a cheating operation to remove all aliens projectile of the sa
 
 ## Acknowledgement
 
-The codebase of full version is provided by unit **SOFT2201 - University of Sydney.**
-The extra parts are `Difficulty`, `Cheat` and `Undo`. 
+The codebase is provided by unit **SOFT2201 - University of Sydney.**
