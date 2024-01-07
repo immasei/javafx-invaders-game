@@ -11,6 +11,8 @@
 ## Overview
 Space Invaders is a 1978 shoot 'em up arcade video game developed and released by Taito in Japan. The goal is to defeat wave after wave of descending aliens with a horizontally moving laser to earn as many points as possible. Here's an [example](https://www.youtube.com/watch?v=uGjgxwiemms).
 
+We are recreating Space Invaders using JavaFX and Gradle, and implementing it with 7 different design patterns, including Builder, Factory, State, Strategy, Singleton, Facade and Memento.
+
 ## Getting Started
 
 ### Dependencies
@@ -20,7 +22,7 @@ Space Invaders is a 1978 shoot 'em up arcade video game developed and released b
 
 ### Execute
 
-`cd` into `java-invaders-game` then `cd` into either:
+`cd` into `javafx-invaders-game` then `cd` into either:
 
 * invaders-full-ver
 * invaders-partial
