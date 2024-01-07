@@ -82,20 +82,70 @@ The player can do a cheating operation to remove all aliens projectile of the sa
 
 ## Design pattern
 
+* **Builder** - *invaders.builder.*
+
+  * **Functionality**: Create enemies and bunkers.
+
+  * `Director`:            Director.java
+  * `Builder`:             Builder.java
+  * `ConcreteBuilder`:     EnemyBuilder.java
+                           BunkerBuilder.java
+  * `Product`:             Enemy.java
+                           Bunker.java
+
+* **Factory** - *invaders.factory.*
+
+  * **Functionality**: Create projectiles.
+
+  * `Product`:             Projectile.java
+  * `ConcreteProduct`:     PlayerProjectile.java
+                           EnemyProjectile.java
+  * `Creator`:             ProjectileFactory.java
+  * `ConcreteCreator`:     PlayerProjectileFactory.java
+                           EnemyProjectileFactory.java
+
+* **State** - *invaders.state.*
+
+  * **Functionality**: Represent state (color changes) of each bunker.
+
+  * `Context`:             Bunker.java
+  * `State`:               BunkerState.java
+  * `ConcreteState`:       GreenState.java
+                           YellowState.java
+                           RedState.java
+
+* **Strategy** - *invaders.strategy.*
+
+  * **Functionality**: Identify the behaviour of projectiles.
+
+  * `Strategy`:            ProjectileStrategy.java
+  * `ConcreteStrategy`:    SlowProjectileStrategy.java
+                           FastProjectileStrategy.java
+                           NormalProjectileStrategy.java
+  * `Context`:             Projectile.java
+    
 * **Singleton** - *invaders.singleton.GameEngine*
 
+  * **Functionality**: Identify difficulty level.
+    
+  * `Singleton`:          GameEngine.java
+
 * **Facade** - *invaders.facade.*
+  
+  * **Functionality**: Show current time and score.
 
   * `Facade`:             LabelFacade.java
   * `Subsystem classes`:  Clock.java
-                         Score.java
+                          Score.java
 
 * **Memento** - *invaders.memento.* and *invaders.singleton.GameEngine*
+
+  * **Functionality**: Undo
 
   * `Memento`:            Memento.java
   * `Caretaker`:          Caretaker.java
   * `Originator`:         GameEngine.java
-
+ 
 ## Acknowledgement
 
 The codebase is provided by unit **SOFT2201 - University of Sydney.**
