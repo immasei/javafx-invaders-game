@@ -82,7 +82,7 @@ The player can do a cheating operation to remove all aliens projectile of the sa
 
 ## Design pattern
 
-* **Builder** - *invaders.builder.*
+* **Builder** - *invaders.builder.**
 
   * **Functionality**: Create enemies and bunkers.
 
@@ -93,7 +93,7 @@ The player can do a cheating operation to remove all aliens projectile of the sa
   * `Product`:             Enemy.java
                            Bunker.java
 
-* **Factory** - *invaders.factory.*
+* **Factory** - *invaders.factory.**
 
   * **Functionality**: Create projectiles.
 
@@ -104,7 +104,7 @@ The player can do a cheating operation to remove all aliens projectile of the sa
   * `ConcreteCreator`:     PlayerProjectileFactory.java
                            EnemyProjectileFactory.java
 
-* **State** - *invaders.state.*
+* **State** - *invaders.state.**
 
   * **Functionality**: Represent state (color changes) of each bunker.
 
@@ -114,7 +114,7 @@ The player can do a cheating operation to remove all aliens projectile of the sa
                            YellowState.java
                            RedState.java
 
-* **Strategy** - *invaders.strategy.*
+* **Strategy** - *invaders.strategy.**
 
   * **Functionality**: Identify the behaviour of projectiles.
 
@@ -130,7 +130,7 @@ The player can do a cheating operation to remove all aliens projectile of the sa
     
   * `Singleton`:          GameEngine.java
 
-* **Facade** - *invaders.facade.*
+* **Facade** - *invaders.facade.**
   
   * **Functionality**: Show current time and score.
 
@@ -138,7 +138,7 @@ The player can do a cheating operation to remove all aliens projectile of the sa
   * `Subsystem classes`:  Clock.java
                           Score.java
 
-* **Memento** - *invaders.memento.* and *invaders.singleton.GameEngine*
+* **Memento** - *invaders.memento.** and *invaders.singleton.GameEngine*
 
   * **Functionality**: Undo
 
