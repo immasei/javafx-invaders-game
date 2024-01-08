@@ -32,6 +32,8 @@ gradle clean build run
 ```
 
 ## Features-Full-Version
+
+* Press `space` to shoot, player spaceship can be moved horizontally using arrows `<` `>`
 * **[Switch difficulty](#Difficulties)**<br>
 * **[Cheat](#Cheat)**<br>
 * **[Undo](#Undo)**<br>
