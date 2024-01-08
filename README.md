@@ -152,6 +152,8 @@ The player can do a cheating operation to remove all aliens projectile of the sa
   * `Caretaker`:          Caretaker.java
   * `Originator`:         GameEngine.java
  
+### UML
+ 
   <p align='center'>
     <img align='center' src='readme-resources/uml.png' width='900'/>
   </p>
