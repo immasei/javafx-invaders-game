@@ -88,10 +88,6 @@ The player can do a cheating operation to remove all aliens projectile of the sa
 
 ## Design pattern
 
-  <p align='center'>
-    <img align='center' src='readme-resources/uml.png' width='900'/>
-  </p>
-
 * **Builder** - *invaders.builder.**
 
   * **Functionality**: Create enemies and bunkers.
@@ -155,6 +151,10 @@ The player can do a cheating operation to remove all aliens projectile of the sa
   * `Memento`:            Memento.java
   * `Caretaker`:          Caretaker.java
   * `Originator`:         GameEngine.java
+ 
+  <p align='center'>
+    <img align='center' src='readme-resources/uml.png' width='900'/>
+  </p>
 
 ### References
 
