@@ -235,4 +235,4 @@ https://www.youtube.com/watch?v=v9ejT8FO-7I&t=365s
 
 ### Acknowledgement
 
-The codebase is provided by unit **SOFT2201 - University of Sydney.**
+The initial project setup was provided by **SOFT2201 - University of Sydney**. All functionalities were implemented by me, unless otherwise noted.
